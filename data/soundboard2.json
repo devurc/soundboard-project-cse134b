@@ -1,0 +1,44 @@
+{
+    "name": "soundboard2", 
+
+    "titles" : ["AIDS","ANTS IN MY EYES JOHNSON",
+            "Dick Move","Stick this up your butthole",
+            "Concentrate Morty","GOOD JOB",
+            "Look at me!","OWEE",
+            "Time to get SCHWIFTY","TINY RICKKK",
+            "Let's watch TV","WUBBALUBBADUBDUB"
+            ],
+            
+    "images" : [
+            "data/imgs/soundboard2/aids.jpg",
+            "data/imgs/soundboard2/antsjohnson.jpg",
+            "data/imgs/soundboard2/birdman.jpg",
+            "data/imgs/soundboard2/butthole.jpg",
+            "data/imgs/soundboard2/concentrate.jpg",
+            "data/imgs/soundboard2/cromulon.jpg",
+            "data/imgs/soundboard2/meseeks.jpg",
+            "data/imgs/soundboard2/owee.jpg",
+            "data/imgs/soundboard2/schwifty.jpg",
+            "data/imgs/soundboard2/tinyrick.jpg",
+            "data/imgs/soundboard2/watchtv.jpg",
+            "data/imgs/soundboard2/wubaluba.jpg"
+            ],
+            
+    "sounds" : [
+            "data/audio/soundboard2/AIDS!.mp3",
+            "data/audio/soundboard2/antsjohnson.mp3",
+            "data/audio/soundboard2/birdman.mp3",
+            "data/audio/soundboard2/butthole.mp3",
+            "data/audio/soundboard2/concentrate.mp3",
+            "data/audio/soundboard2/Good_Job!.mp3",
+            "data/audio/soundboard2/meseeks.mp3",
+            "data/audio/soundboard2/owee.mp3",
+            "data/audio/soundboard2/schwifty.mp3",
+            "data/audio/soundboard2/tinyrick.mp3",
+            "data/audio/soundboard2/watchtv.mp3",
+            "data/audio/soundboard2/wubbalubba.mp3"
+            ],
+    "play_icon" : "data/imgs/play_circle_outline.svg",
+
+    "pause_icon" : "data/imgs/pause_circle_outline.svg"
+}

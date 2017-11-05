@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Soundboards by WES</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="manifest" href="/manifest.json">
+  <link href="assets/css/homepageLIGHT.css" rel="stylesheet">
+  <script src="https://cdn.ravenjs.com/3.17.0/raven.min.js" crossorigin="anonymous"></script>
+  <script>
+    Raven.config('https://0abd0dcb0f8e4acab7418c6650bcdf72@sentry.io/197376').install()
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/js/sbfinal.js"></script>
+  <noscript>
+    Javascript is required for this website. Please turn on Javascript in your browser settings.
+  </noscript>
+   <!--Chrome & Firefox OS -->
+  <meta name="theme-color" content="#27A7D8">
+   <!--Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Soundboards by WES">
+  <link rel="apple-touch-icon" href="images/icon-152x152.png">
+  
+  <!--Add to home screen for Windows Phones-->
+  <meta name="msapplication-TileImage" content="images/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#27A7D8">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <ul>
+          <li class="left-nav"><a href="#">Portal 2 Soundboard</a></li>
+          <div class="right-nav">
+            <li><a href="index.html">Team Profile</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="tagtest.html">Login</a></li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="jumbotron">
+    <div>
+      <h1>Portal 2 Soundboard</h1>
+      <p>Brought to you through a collaborative effort between Aperture Science and WES</p>
+    </div>
+  </div>
+
+  <div id="selector">
+    <label for="theme-select">Theme: </label>
+    <select id="theme-select" onChange="changeTheme();">
+        <option value="light">Light Theme</option>
+        <option value="dark">Dark Theme</option>
+    </select>
+
+    <span id="content-dropdown">
+    <label for="content-select"> Content: </label>
+    <select id="content-select" onChange="changeContent();">
+        <option value="Set 1">Set 1</option>
+        <option value="Set 2">Set 2</option>
+    </select>
+    </span>
+
+    <span>
+      <label> Site Mode:</label>
+      <button id="mode" value="rich" onclick="changeMode();">Rich</button>
+    </span>
+  </div>
+  <main>
+
+  </main>
+</body>
+
+<script>
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker
+      .register('worker.js');
+  }
+</script>
+
+<footer>
+  &copy; 2017 WES
+</footer>
+
+</html>

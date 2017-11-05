@@ -1,0 +1,52 @@
+{
+  "name" : "soundboard1",
+  
+  "titles" : [
+    "Science isn't about why",
+    "When life gives you lemons...",
+    "Extra half volt",
+    "Oh, It's You",
+    "The Good Old Days",
+    "The Part Where He Kills You",
+    "Lunatic",
+    "An army of mantis men",
+    "For science, you monster",
+    "So. How are you holding up?",
+    "Is anyone there?",
+    "Wheatley's nemesis"
+    ],
+  
+  "images" : [
+    "data/imgs/soundboard1/aperture.jpg",
+    "data/imgs/soundboard1/cavejohnson.jpg",
+    "data/imgs/soundboard1/friedpotato.jpg",
+    "data/imgs/soundboard1/glados.jpg",
+    "data/imgs/soundboard1/goodlife.jpg",
+    "data/imgs/soundboard1/killyou.jpg",
+    "data/imgs/soundboard1/lunatic.jpg",
+    "data/imgs/soundboard1/mantismen.jpg",
+    "data/imgs/soundboard1/monster.jpg",
+    "data/imgs/soundboard1/potato.jpg",
+    "data/imgs/soundboard1/turret.jpg",
+    "data/imgs/soundboard1/wheatley.jpg"
+    ],
+    
+  "sounds" : [
+    "data/audio/soundboard1/aperture.mp3",  
+    "data/audio/soundboard1/cavejohnson.mp3",
+    "data/audio/soundboard1/friedpotato.mp3",
+    "data/audio/soundboard1/glados.mp3",
+    "data/audio/soundboard1/goodlife.mp3",
+    "data/audio/soundboard1/killyou.mp3",
+    "data/audio/soundboard1/lunatic.mp3",
+    "data/audio/soundboard1/mantismen.mp3",
+    "data/audio/soundboard1/monster.mp3",
+    "data/audio/soundboard1/potato.mp3",
+    "data/audio/soundboard1/turret.mp3",
+    "data/audio/soundboard1/wheatley.mp3"
+    ],
+    
+  "play_icon" : "data/imgs/play_circle_outline.svg",
+  
+  "pause_icon" : "data/imgs/pause_circle_outline.svg"
+}

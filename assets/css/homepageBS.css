@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url(../../images/portal_2_wallpaper.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+audio {
+    width: 200px;
+}
+
+img {
+    height: 200px;
+}
+
+.jumbotron p {
+    margin-left: 0%;
+    max-width: 65%;
+}
+
+@media (min-width:992px)
+    {
+        .container{width:960px}
+    }
+@media (min-width:1200px)
+    {
+        .container{width:960px}
+    }

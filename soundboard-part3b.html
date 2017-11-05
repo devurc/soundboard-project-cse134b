@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portal 2 Soundboard</title>
+    <meta charset="utf-8"/>
+    <link href="assets/css/homepageLIGHT.css" rel="stylesheet">
+    <!--<script src="https://cdn.ravenjs.com/3.17.0/raven.min.js" crossorigin="anonymous"></script>-->
+    
+    <!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/soundboardJQUERY.js"></script>
+    <noscript>
+      Javascript is required for this website. Please turn on Javascript in your browser settings.
+    </noscript>
+    
+    <script>
+
+
+    
+    </script>
+</head>
+<body>
+    
+<header>
+<nav>
+  <div>
+    <ul>
+        <li class="left-nav"><a href="#">Portal 2 Soundboard</a></li>
+        <div>
+        <li><a class="right-nav" href="index.html">Team Profile</a></li>
+        <li><a class="right-nav" href="settings.html">Settings</a></li>
+        <li><a class="right-nav" href="tagtest.html">Login</a></li>
+        </div>
+    </ul>
+  </div>
+</nav>
+</header>    
+
+<div class="jumbotron">
+    <div>
+    <h1>Portal 2 Soundboard</h1> 
+    <p>Brought to you through a collaborative effort between Aperture Science and WES</p> 
+    </div>
+</div>
+
+<div id="selector">
+    <label for="theme-select">Theme: </label>
+    <select id="theme-select" onChange="changeTheme();">
+        <option value="light">Light Theme</option>
+        <option value="dark">Dark Theme</option>
+    </select>
+    
+    <span id="content-dropdown">
+    <label for="content-select"> Content: </label>
+    <select id="content-select" onChange="changeContent();">
+        <option value="Set 1">Set 1</option>
+        <option value="Set 2">Set 2</option>
+    </select>
+    </span>
+    
+    <span>
+      <label> Site Mode:</label>
+      <button id="mode" value="rich" onClick="changeMode();">Rich</button>
+    </span>
+</div>
+<main>
+
+</main>
+</body>
+</html>
